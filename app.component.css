@@ -1,0 +1,29 @@
+/*Playlist*/
+.nb-bg{
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: rgb(69,72,77); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(69,72,77) 0%, rgb(0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(69,72,77) 0%,rgb(0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(69,72,77) 0%,rgb(0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+.portada-pl{
+     max-height: 550px;
+     max-width: 550px;
+}
+
+.contenido-centrado{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+}

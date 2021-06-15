@@ -1,0 +1,31 @@
+/* Playlists */
+.texto-imagen {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+
+.card-body.texto-imagen{
+     text-decoration: none;
+     font-family: 'Barlow', sans-serif;
+     font-size: 22px;
+}
+
+.card-body.texto-imagen a{
+     min-width: 400px;
+     margin: 0 auto;
+    
+     
+}
+
+.card-body.texto-imagen a:hover{
+     text-decoration: none;
+     font-weight: bolder;
+}
+
+.capa-imagen{
+     background-color: rgba(0,0,0,0.8);
+     max-width: 100%;
+     filter:brightness(0.4);
+   }

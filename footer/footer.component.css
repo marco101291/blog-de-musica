@@ -1,0 +1,22 @@
+
+
+nav a, nav ul li a{
+   margin-right: 20px;
+   font-size: 18px;
+   text-transform: uppercase;
+   font-family: 'Barlow', sans-serif;
+   text-decoration: none;
+   
+}
+nav a:hover.text-hover{
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.fas {
+   font-size: 18px;
+}
+
+footer p{
+ font-size: 12px;
+}

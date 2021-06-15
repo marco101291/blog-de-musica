@@ -1,0 +1,33 @@
+.img-album{
+     max-width: 600px;
+     max-height: 600px; 
+     margin: 0 auto;
+}
+
+@media(max-width: 768px ){
+     .img-album{
+          max-width: 300px;
+          max-height: 300px;
+          margin: 0 auto;
+          
+     }
+     
+}
+
+@media(max-width: 1199px ){
+     .img-album{
+          display: flex;
+          justify-content: center;
+          margin: 0 auto;
+          
+     }
+     
+}
+
+
+
+@media(max-width: 576px){
+     .review{
+          text-align: center;
+     }
+}

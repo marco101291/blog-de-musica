@@ -1,0 +1,118 @@
+/* You can add global styles to this file, and also import other style files */
+/*General*/
+body{
+     margin: 0 auto;
+}
+.bg-black{
+     background-color: black;
+}
+
+h2{
+     text-transform: uppercase;
+     
+}
+
+.div-mensaje{
+     height: 200px;
+}
+
+/*Formulario*/
+.form-bg{
+     background-image: url('/img/Contacto/caught-in-joy-PukZSAi_K5o-unsplash.jpg');
+     background-size:cover;
+}
+
+
+/*Mensaje de error*/
+
+#espacio-alerta .error-form{
+     border: solid;
+     border-color: red;
+     background-color: red;
+     align-content: center;
+     text-align: center;
+     font-size: 16px;
+     width: 350px;
+     font-family: 'Barlow', sans-serif;
+     
+     
+}
+
+.warning{
+     border:solid;
+     border-width:2px;
+     --border-opacity:1;border-color:#f56565;border-color:rgba(245,101,101,var(--border-opacity))
+}
+
+.success{
+     border:solid;
+     border-width:2px;
+     --border-opacity:1;border-color:#48bb78;border-color:rgba(72,187,120,var(--border-opacity))
+}
+
+/*Spinner*/
+.spinner {
+     margin: 100px auto;
+     width: 50px;
+     height: 40px;
+     text-align: center;
+     font-size: 10px;
+     display: none;
+   }
+   
+   .spinner > div {
+     background-color: white;
+     height: 100%;
+     width: 6px;
+     display: inline-block;
+     
+     -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+     animation: sk-stretchdelay 1.2s infinite ease-in-out;
+   }
+   
+   .spinner .rect2 {
+     -webkit-animation-delay: -1.1s;
+     animation-delay: -1.1s;
+   }
+   
+   .spinner .rect3 {
+     -webkit-animation-delay: -1.0s;
+     animation-delay: -1.0s;
+   }
+   
+   .spinner .rect4 {
+     -webkit-animation-delay: -0.9s;
+     animation-delay: -0.9s;
+   }
+   
+   .spinner .rect5 {
+     -webkit-animation-delay: -0.8s;
+     animation-delay: -0.8s;
+   }
+   
+   @-webkit-keyframes sk-stretchdelay {
+     0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+     20% { -webkit-transform: scaleY(1.0) }
+   }
+   
+   @keyframes sk-stretchdelay {
+     0%, 40%, 100% { 
+       transform: scaleY(0.4);
+       -webkit-transform: scaleY(0.4);
+     }  20% { 
+       transform: scaleY(1.0);
+       -webkit-transform: scaleY(1.0);
+     }
+   }
+
+   /*Mensaje de éxito*/
+   .mensaje-exito{
+     color:white;
+     border: solid;
+     background-color: green;
+     border-color: green;
+     font-size: 16px;
+     width: 350px;
+     font-family: 'Barlow', sans-serif;
+   }
+
